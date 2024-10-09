@@ -143,6 +143,7 @@ const projectConfig = {
   database_url: DATABASE_URL,
   admin_cors: ADMIN_CORS,
   database_extra: { ssl: { rejectUnauthorized: false } },
+  database_schema: "test",
   // Uncomment the following lines to enable REDIS
   redis_url: REDIS_URL,
 };
